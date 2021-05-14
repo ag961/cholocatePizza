@@ -1,0 +1,27 @@
+header {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+#headerLeft {
+  display: flex;
+  align-items: center;
+}
+
+#headerText {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerLine {
+  width: 100vw;
+  height: 10px;
+  background-image: url('./img/hr-img.png');
+  background-repeat: repeat;
+}
+
+#shoplist {
+  background-image: url('./img/list-bg.png');
+  background-repeat: no-repeat;
+}
