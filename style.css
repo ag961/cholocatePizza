@@ -1,12 +1,29 @@
+body {
+  box-sizing: border-box;
+  width: 960px;
+  margin: 1.5rem auto;
+}
+
 header {
  display: flex;
  align-items: center;
  justify-content: space-between;
+ margin-bottom: 1.5rem;
+}
+
+  
+img {
+  padding: 0 ;  
+}
+
+#pint {
+  margin-right: 0.5rem;
 }
 
 #headerLeft {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  gap: .5rem;
 }
 
 #headerText {
@@ -15,13 +32,89 @@ header {
 }
 
 .headerLine {
-  width: 100vw;
+  width: 100%;
   height: 10px;
   background-image: url('./img/hr-img.png');
   background-repeat: repeat;
 }
 
-#shoplist {
-  background-image: url('./img/list-bg.png');
-  background-repeat: no-repeat;
+#headerTwo {
+  margin-top: 3rem;
 }
+
+h2 {
+  font-size: 50px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bold;
+  font-stretch: condensed;
+}
+
+#printLine {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  margin-top: .5rem;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #E1D7D2;
+}
+
+#text {
+margin-bottom: 2rem;
+}
+
+#text p {
+  margin-top: 2rem;
+  font-family: 'Times New Roman', serif;
+  font-size: larger;
+  text-indent: 25px;
+}
+
+#printLineRight {
+  display: flex;
+  align-items: center;
+}
+
+#mainImg {
+  width: 100%;
+}
+
+#shoplist {
+  display: flex;
+  background-size: 100%;
+  margin-bottom: 2rem;
+  height: 325.7px;
+}
+
+#shoplist img {
+position: absolute;
+z-index: -100;
+width: 960px;
+}
+
+#leftList #rightList {
+  z-index: 1;
+  margin-top: 10rem;
+}
+
+#leftList {
+  width: 50%;
+}
+
+#rightList {
+  width: 45%;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.3rem;
+  margin-left: 3.5rem;
+  margin-top: 1.5rem;
+}
+
+form li {
+  margin-top: 1.1rem;
+}
+
+
